@@ -1,0 +1,31 @@
+  const updateFirebase = () =>{
+     db.collection('orders')
+            .get()
+            .then(querySnapshot => {
+                const orders = []
+                querySnapshot.forEach((doc) => {
+                    let data = doc.data();
+                    db.collection('orders').doc(doc.id).update({
+                        status: data.status ? data.status : 'pending',
+                        items: data.items ? data.items : [],
+                        name: data.name ? data.name : 'Demi Gelfond',
+                        phone: data.phone ? data.phone : '054-1234567',
+                        city: data.city ? data.city : 'Tel Aviv',
+                        floor: data.floor ? data.floor : '3',
+                        apartment: data.apartment ? data.apartment : '12',
+                        restaurantName: data.restaurantName ? data.restaurantName : 'Burger King',
+                        street: data.street ? data.street : 'Habima',
+                    })
+                        .catch((error) => {
+                            console.log(error)
+                        })
+                    orders.push({
+                        id: doc.id,
+                        ...doc.data()
+                    })
+                })
+
+                setOrders(orders)
+            }
+            )
+  }

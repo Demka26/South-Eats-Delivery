@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "770995095612",
+    "project_id": "south-eats-ecfa6",
+    "storage_bucket": "south-eats-ecfa6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770995095612:android:e27c372a6c9f1dfa91db39",
+        "android_client_info": {
+          "package_name": "com.southeats.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770995095612-06jadd3no608t7ls7vcshsuobnt3slqo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.southeats.user",
+            "certificate_hash": "9e3ce2757ee59f5f0edfbd1e922ebf5f1c7d847d"
+          }
+        },
+        {
+          "client_id": "770995095612-vii25s5cir8aqvh0c0022pknoe6rf7ij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.southeats.user",
+            "certificate_hash": "1527ac615d61f9ec677edb666d6344af18e72086"
+          }
+        },
+        {
+          "client_id": "770995095612-d032o3812r4iii5kfse23ou6iba724ct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF-hXnusuXBvDNUdjozDEUYDkROqPUfGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770995095612-d032o3812r4iii5kfse23ou6iba724ct.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

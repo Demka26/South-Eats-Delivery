@@ -1,0 +1,649 @@
+[debug] [2022-11-18T01:13:10.327Z] ----------------------------------------------------------------------
+[debug] [2022-11-18T01:13:10.329Z] Command:       /usr/local/bin/node /usr/local/bin/firebase emulators:start --only functions
+[debug] [2022-11-18T01:13:10.330Z] CLI Version:   11.15.0
+[debug] [2022-11-18T01:13:10.330Z] Platform:      darwin
+[debug] [2022-11-18T01:13:10.330Z] Node Version:  v16.18.0
+[debug] [2022-11-18T01:13:10.332Z] Time:          Fri Nov 18 2022 06:13:10 GMT+0500 (Pakistan Standard Time)
+[debug] [2022-11-18T01:13:10.332Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-18T01:13:10.430Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-18T01:13:10.431Z] > authorizing via signed-in user (shahnawazhussain125@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2022-11-18T01:13:11.389Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-18T01:13:11.390Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2022-11-18T01:13:11.401Z] [hub] writing locator at /var/folders/cw/54nh0hzj2dl90t2p6kl_8bzc0000gn/T/hub-south-eats-ecfa6.json
+[debug] [2022-11-18T01:13:12.046Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-18T01:13:12.046Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-18T01:13:12.047Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[info] ✔  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-11-18T01:13:12.066Z] defaultcredentials: writing to file /Users/shahnawazhussain/.config/firebase/shahnawazhussain125_gmail_com_application_default_credentials.json
+[debug] [2022-11-18T01:13:12.081Z] Setting GAC to /Users/shahnawazhussain/.config/firebase/shahnawazhussain125_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/shahnawazhussain/.config/firebase/shahnawazhussain125_gmail_com_application_default_credentials.json"}}
+[debug] [2022-11-18T01:13:12.084Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/south-eats-ecfa6/adminSdkConfig [none]
+[debug] [2022-11-18T01:13:12.564Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/south-eats-ecfa6/adminSdkConfig 200
+[debug] [2022-11-18T01:13:12.564Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/south-eats-ecfa6/adminSdkConfig {"projectId":"south-eats-ecfa6","storageBucket":"south-eats-ecfa6.appspot.com","locationId":"us-central"}
+[debug] [2022-11-18T01:13:12.590Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-11-18T01:13:12.591Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-11-18T01:13:12.591Z] Starting Emulator UI with command {"binary":"node","args":["/Users/shahnawazhussain/.cache/firebase/emulators/ui-v1.11.1/server/server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/shahnawazhussain/.cache/firebase/emulators/ui-v1.11.1/server/server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-11-18T01:13:12.718Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2022-11-18T01:13:12.718Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions\" for Cloud Functions..."}}
+[debug] [2022-11-18T01:13:12.861Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-18T01:13:15.389Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-11-18T01:13:15.389Z] Building nodejs source
+[debug] [2022-11-18T01:13:15.389Z] Analyzing nodejs backend spec
+[debug] [2022-11-18T01:13:15.393Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-18T01:13:16.444Z] Serving at port 9005
+
+[debug] [2022-11-18T01:13:16.501Z] Got response from /__/functions.yaml {"endpoints":{"helloWorld":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"helloWorld"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-18T01:13:16.512Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: helloWorld. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: helloWorld."}}
+[info] ✔  functions[us-central1-helloWorld]: http function initialized (http://127.0.0.1:5001/south-eats-ecfa6/us-central1/helloWorld). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/south-eats-ecfa6/us-central1/helloWorld)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-11-18T01:16:09.284Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-11-18T01:16:09.284Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-11-18T01:16:09.285Z] Accepted request GET /south-eats-ecfa6/us-central1/helloWorld --> us-central1-helloWorld
+[debug] [2022-11-18T01:16:09.288Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-11-18T01:16:09.288Z] [functions] Got req.url=/south-eats-ecfa6/us-central1/helloWorld, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/south-eats-ecfa6/us-central1/helloWorld, mapping to path=/"}}
+[debug] [2022-11-18T01:16:09.300Z] [worker-pool] addWorker(us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-helloWorld)"}}
+[debug] [2022-11-18T01:16:09.301Z] [worker-pool] Adding worker with key us-central1-helloWorld, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-helloWorld, total=1"}}
+[debug] [2022-11-18T01:16:10.026Z] [runtime-status] [3108] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3108] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-11-18T01:16:10.027Z] [runtime-status] [3108] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3108] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-11-18T01:16:10.027Z] [runtime-status] [3108] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3108] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-11-18T01:16:10.028Z] [runtime-status] [3108] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3108] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-11-18T01:16:10.063Z] [runtime-status] [3108] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3108] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-11-18T01:16:10.064Z] [runtime-status] [3108] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3108] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-11-18T01:16:10.064Z] [runtime-status] [3108] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3108] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-11-18T01:16:10.065Z] [runtime-status] [3108] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3108] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-11-18T01:16:10.066Z] [runtime-status] [3108] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3108] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-11-18T01:16:10.066Z] [runtime-status] [3108] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3108] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-11-18T01:16:10.072Z] [runtime-status] [3108] Functions runtime initialized. {"cwd":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions","node_version":"16.18.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3108] Functions runtime initialized. {\"cwd\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions\",\"node_version\":\"16.18.0\"}"}}
+[debug] [2022-11-18T01:16:10.073Z] [runtime-status] [3108] Listening to port: /var/folders/cw/54nh0hzj2dl90t2p6kl_8bzc0000gn/T/fire_emu_e959fc06d03ddba4.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3108] Listening to port: /var/folders/cw/54nh0hzj2dl90t2p6kl_8bzc0000gn/T/fire_emu_e959fc06d03ddba4.sock"}}
+[debug] [2022-11-18T01:16:10.122Z] [worker-pool] submitRequest(triggerId=us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-helloWorld)"}}
+[debug] [2022-11-18T01:16:10.123Z] [worker-us-central1-helloWorld-fb698db1-5601-448b-9ef4-4872f58ec983]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-fb698db1-5601-448b-9ef4-4872f58ec983]: BUSY"}}
+[info] i  functions: Beginning execution of "helloWorld" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Beginning execution of \"helloWorld\""}}
+[info] >  {"structuredData":true,"severity":"INFO","message":"Hello logs!"} {"user":{"structuredData":true,"severity":"INFO","message":"Hello logs!"},"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"\u001b[90m> \u001b[39m {\"structuredData\":true,\"severity\":\"INFO\",\"message\":\"Hello logs!\"}"}}
+[debug] [2022-11-18T01:16:10.130Z] [worker-us-central1-helloWorld-fb698db1-5601-448b-9ef4-4872f58ec983]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-fb698db1-5601-448b-9ef4-4872f58ec983]: IDLE"}}
+[debug] [2022-11-18T01:16:10.130Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] i  functions: Finished "helloWorld" in 2.950412ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finished \"helloWorld\" in 2.950412ms"}}
+[debug] [2022-11-18T01:34:10.709Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:34:10.808Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:34:11.809Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-18T01:34:12.949Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-11-18T01:34:12.949Z] Building nodejs source
+[debug] [2022-11-18T01:34:12.949Z] Analyzing nodejs backend spec
+[debug] [2022-11-18T01:34:12.950Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-18T01:34:13.167Z] Serving at port 9005
+
+[debug] [2022-11-18T01:34:13.214Z] Got response from /__/functions.yaml {"endpoints":{"helloWorld":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"helloWorld"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-18T01:34:13.220Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: helloWorld. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: helloWorld."}}
+[debug] [2022-11-18T01:34:13.229Z] [worker-pool] Shutting down IDLE worker (us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-helloWorld)"}}
+[debug] [2022-11-18T01:34:13.229Z] [worker-us-central1-helloWorld-fb698db1-5601-448b-9ef4-4872f58ec983]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-fb698db1-5601-448b-9ef4-4872f58ec983]: FINISHING"}}
+[debug] [2022-11-18T01:34:13.234Z] [worker-us-central1-helloWorld-fb698db1-5601-448b-9ef4-4872f58ec983]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-fb698db1-5601-448b-9ef4-4872f58ec983]: exited"}}
+[debug] [2022-11-18T01:34:13.234Z] [worker-us-central1-helloWorld-fb698db1-5601-448b-9ef4-4872f58ec983]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-fb698db1-5601-448b-9ef4-4872f58ec983]: FINISHED"}}
+[debug] [2022-11-18T01:34:29.546Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:34:29.647Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:34:30.649Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-18T01:34:31.823Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-11-18T01:34:31.823Z] Building nodejs source
+[debug] [2022-11-18T01:34:31.823Z] Analyzing nodejs backend spec
+[debug] [2022-11-18T01:34:31.826Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-18T01:34:31.983Z] Serving at port 9005
+
+[debug] [2022-11-18T01:34:32.032Z] Got response from /__/functions.yaml {"endpoints":{"helloWorld":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"helloWorld"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-18T01:34:32.040Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: helloWorld. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: helloWorld."}}
+[debug] [2022-11-18T01:34:57.561Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:34:58.563Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-18T01:34:59.724Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-11-18T01:34:59.724Z] Building nodejs source
+[debug] [2022-11-18T01:34:59.724Z] Analyzing nodejs backend spec
+[debug] [2022-11-18T01:34:59.725Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-18T01:34:59.875Z] Serving at port 9005
+
+[debug] [2022-11-18T01:34:59.921Z] Got response from /__/functions.yaml {"endpoints":{"helloWorld":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"helloWorld"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-18T01:34:59.928Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: helloWorld. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: helloWorld."}}
+[debug] [2022-11-18T01:35:01.304Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-11-18T01:35:01.304Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-11-18T01:35:01.304Z] Accepted request GET /south-eats-ecfa6/us-central1/helloWorld --> us-central1-helloWorld
+[debug] [2022-11-18T01:35:01.306Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-11-18T01:35:01.307Z] [functions] Got req.url=/south-eats-ecfa6/us-central1/helloWorld, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/south-eats-ecfa6/us-central1/helloWorld, mapping to path=/"}}
+[debug] [2022-11-18T01:35:01.307Z] [worker-pool] Cleaned up workers for us-central1-helloWorld: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-helloWorld: 1 --> 0"}}
+[debug] [2022-11-18T01:35:01.316Z] [worker-pool] addWorker(us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-helloWorld)"}}
+[debug] [2022-11-18T01:35:01.317Z] [worker-pool] Adding worker with key us-central1-helloWorld, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-helloWorld, total=1"}}
+[debug] [2022-11-18T01:35:02.097Z] [runtime-status] [3651] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3651] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-11-18T01:35:02.098Z] [runtime-status] [3651] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3651] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-11-18T01:35:02.098Z] [runtime-status] [3651] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3651] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-11-18T01:35:02.099Z] [runtime-status] [3651] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3651] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-11-18T01:35:02.136Z] [runtime-status] [3651] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3651] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-11-18T01:35:02.136Z] [runtime-status] [3651] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3651] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-11-18T01:35:02.137Z] [runtime-status] [3651] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3651] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-11-18T01:35:02.138Z] [runtime-status] [3651] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3651] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-11-18T01:35:02.139Z] [runtime-status] [3651] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3651] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-11-18T01:35:02.139Z] [runtime-status] [3651] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3651] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-11-18T01:35:02.146Z] [runtime-status] [3651] Functions runtime initialized. {"cwd":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions","node_version":"16.18.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3651] Functions runtime initialized. {\"cwd\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions\",\"node_version\":\"16.18.0\"}"}}
+[debug] [2022-11-18T01:35:02.146Z] [runtime-status] [3651] Listening to port: /var/folders/cw/54nh0hzj2dl90t2p6kl_8bzc0000gn/T/fire_emu_be46e30135b8d953.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [3651] Listening to port: /var/folders/cw/54nh0hzj2dl90t2p6kl_8bzc0000gn/T/fire_emu_be46e30135b8d953.sock"}}
+[debug] [2022-11-18T01:35:02.236Z] [worker-pool] submitRequest(triggerId=us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-helloWorld)"}}
+[debug] [2022-11-18T01:35:02.236Z] [worker-us-central1-helloWorld-5f93728d-d5a2-4256-bb74-05429e505c2c]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-5f93728d-d5a2-4256-bb74-05429e505c2c]: BUSY"}}
+[info] i  functions: Beginning execution of "helloWorld" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Beginning execution of \"helloWorld\""}}
+[warn] ⚠  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"The Cloud Firestore emulator is not running, so calls to Firestore will affect production."}}
+[debug] [2022-11-18T01:35:02.297Z] [worker-us-central1-helloWorld-5f93728d-d5a2-4256-bb74-05429e505c2c]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-5f93728d-d5a2-4256-bb74-05429e505c2c]: IDLE"}}
+[debug] [2022-11-18T01:35:02.297Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] i  functions: Finished "helloWorld" in 57.061959ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finished \"helloWorld\" in 57.061959ms"}}
+[debug] [2022-11-18T01:36:41.161Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:36:41.283Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:36:41.363Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:36:42.366Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-18T01:36:43.854Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-11-18T01:36:43.854Z] Building nodejs source
+[debug] [2022-11-18T01:36:43.854Z] Analyzing nodejs backend spec
+[debug] [2022-11-18T01:36:43.856Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-18T01:36:44.068Z] Serving at port 9005
+
+[debug] [2022-11-18T01:36:44.123Z] Got response from /__/functions.yaml {"endpoints":{"helloWorld":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"helloWorld"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-18T01:36:44.129Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: helloWorld. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: helloWorld."}}
+[debug] [2022-11-18T01:36:44.138Z] [worker-pool] Shutting down IDLE worker (us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-helloWorld)"}}
+[debug] [2022-11-18T01:36:44.138Z] [worker-us-central1-helloWorld-5f93728d-d5a2-4256-bb74-05429e505c2c]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-5f93728d-d5a2-4256-bb74-05429e505c2c]: FINISHING"}}
+[debug] [2022-11-18T01:36:44.145Z] [worker-us-central1-helloWorld-5f93728d-d5a2-4256-bb74-05429e505c2c]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-5f93728d-d5a2-4256-bb74-05429e505c2c]: exited"}}
+[debug] [2022-11-18T01:36:44.145Z] [worker-us-central1-helloWorld-5f93728d-d5a2-4256-bb74-05429e505c2c]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-5f93728d-d5a2-4256-bb74-05429e505c2c]: FINISHED"}}
+[debug] [2022-11-18T01:36:52.946Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:36:53.048Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:36:53.124Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:36:54.126Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-18T01:36:55.325Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-11-18T01:36:55.325Z] Building nodejs source
+[debug] [2022-11-18T01:36:55.325Z] Analyzing nodejs backend spec
+[debug] [2022-11-18T01:36:55.327Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-18T01:36:55.480Z] Serving at port 9005
+
+[debug] [2022-11-18T01:36:55.530Z] Got response from /__/functions.yaml {"endpoints":{"helloWorld":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"helloWorld"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-18T01:36:55.537Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: helloWorld. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: helloWorld."}}
+[debug] [2022-11-18T01:36:55.868Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:36:55.970Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:36:56.068Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:36:57.069Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-18T01:36:58.258Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-11-18T01:36:58.258Z] Building nodejs source
+[debug] [2022-11-18T01:36:58.258Z] Analyzing nodejs backend spec
+[debug] [2022-11-18T01:36:58.259Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-18T01:36:58.404Z] Serving at port 9005
+
+[debug] [2022-11-18T01:36:58.461Z] Got response from /__/functions.yaml {"endpoints":{"helloWorld":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"helloWorld"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-18T01:36:58.470Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: helloWorld. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: helloWorld."}}
+[debug] [2022-11-18T01:36:58.641Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-11-18T01:36:58.642Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-11-18T01:36:58.642Z] Accepted request GET /south-eats-ecfa6/us-central1/helloWorld --> us-central1-helloWorld
+[debug] [2022-11-18T01:36:58.645Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-11-18T01:36:58.645Z] [functions] Got req.url=/south-eats-ecfa6/us-central1/helloWorld, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/south-eats-ecfa6/us-central1/helloWorld, mapping to path=/"}}
+[debug] [2022-11-18T01:36:58.645Z] [worker-pool] Cleaned up workers for us-central1-helloWorld: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-helloWorld: 1 --> 0"}}
+[debug] [2022-11-18T01:36:58.652Z] [worker-pool] addWorker(us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-helloWorld)"}}
+[debug] [2022-11-18T01:36:58.653Z] [worker-pool] Adding worker with key us-central1-helloWorld, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-helloWorld, total=1"}}
+[debug] [2022-11-18T01:36:59.443Z] [runtime-status] [4182] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4182] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-11-18T01:36:59.445Z] [runtime-status] [4182] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4182] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-11-18T01:36:59.445Z] [runtime-status] [4182] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4182] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-11-18T01:36:59.446Z] [runtime-status] [4182] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4182] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-11-18T01:36:59.483Z] [runtime-status] [4182] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4182] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-11-18T01:36:59.483Z] [runtime-status] [4182] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4182] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-11-18T01:36:59.484Z] [runtime-status] [4182] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4182] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-11-18T01:36:59.484Z] [runtime-status] [4182] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4182] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-11-18T01:36:59.485Z] [runtime-status] [4182] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4182] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-11-18T01:36:59.485Z] [runtime-status] [4182] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4182] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-11-18T01:36:59.487Z] [runtime-status] [4182] initializeApp(DEFAULT) {"storageBucket":"south-eats-ecfa6.appspot.com","projectId":"south-eats-ecfa6"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4182] initializeApp(DEFAULT) {\"storageBucket\":\"south-eats-ecfa6.appspot.com\",\"projectId\":\"south-eats-ecfa6\"}"}}
+[debug] [2022-11-18T01:36:59.494Z] [runtime-status] [4182] Functions runtime initialized. {"cwd":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions","node_version":"16.18.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4182] Functions runtime initialized. {\"cwd\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions\",\"node_version\":\"16.18.0\"}"}}
+[debug] [2022-11-18T01:36:59.494Z] [runtime-status] [4182] Listening to port: /var/folders/cw/54nh0hzj2dl90t2p6kl_8bzc0000gn/T/fire_emu_f641050ca12ac7d4.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4182] Listening to port: /var/folders/cw/54nh0hzj2dl90t2p6kl_8bzc0000gn/T/fire_emu_f641050ca12ac7d4.sock"}}
+[debug] [2022-11-18T01:36:59.569Z] [worker-pool] submitRequest(triggerId=us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-helloWorld)"}}
+[debug] [2022-11-18T01:36:59.569Z] [worker-us-central1-helloWorld-501d32bb-833f-409a-800e-7bc9f6474b26]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-501d32bb-833f-409a-800e-7bc9f6474b26]: BUSY"}}
+[info] i  functions: Beginning execution of "helloWorld" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Beginning execution of \"helloWorld\""}}
+[warn] ⚠  Google API requested!
+   - URL: "https://oauth2.googleapis.com/token"
+   - Be careful, this may be a production service. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Google API requested!\n   - URL: \"https://oauth2.googleapis.com/token\"\n   - Be careful, this may be a production service."}}
+[debug] [2022-11-18T01:37:02.107Z] [worker-us-central1-helloWorld-501d32bb-833f-409a-800e-7bc9f6474b26]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-501d32bb-833f-409a-800e-7bc9f6474b26]: IDLE"}}
+[debug] [2022-11-18T01:37:02.107Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] i  functions: Finished "helloWorld" in 2533.661731ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finished \"helloWorld\" in 2533.661731ms"}}
+[debug] [2022-11-18T01:37:27.164Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:37:27.282Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:37:27.344Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:37:28.347Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-18T01:37:29.493Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-11-18T01:37:29.493Z] Building nodejs source
+[debug] [2022-11-18T01:37:29.493Z] Analyzing nodejs backend spec
+[debug] [2022-11-18T01:37:29.495Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-18T01:37:29.652Z] Serving at port 9005
+
+[debug] [2022-11-18T01:37:29.701Z] Got response from /__/functions.yaml {"endpoints":{"helloWorld":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"helloWorld"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-18T01:37:29.712Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: helloWorld. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: helloWorld."}}
+[debug] [2022-11-18T01:37:29.719Z] [worker-pool] Shutting down IDLE worker (us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-helloWorld)"}}
+[debug] [2022-11-18T01:37:29.719Z] [worker-us-central1-helloWorld-501d32bb-833f-409a-800e-7bc9f6474b26]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-501d32bb-833f-409a-800e-7bc9f6474b26]: FINISHING"}}
+[debug] [2022-11-18T01:37:29.726Z] [worker-us-central1-helloWorld-501d32bb-833f-409a-800e-7bc9f6474b26]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-501d32bb-833f-409a-800e-7bc9f6474b26]: exited"}}
+[debug] [2022-11-18T01:37:29.726Z] [worker-us-central1-helloWorld-501d32bb-833f-409a-800e-7bc9f6474b26]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-501d32bb-833f-409a-800e-7bc9f6474b26]: FINISHED"}}
+[debug] [2022-11-18T01:37:42.603Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:37:42.703Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:37:42.841Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:37:42.904Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:37:43.910Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-18T01:37:45.180Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-11-18T01:37:45.180Z] Building nodejs source
+[debug] [2022-11-18T01:37:45.181Z] Analyzing nodejs backend spec
+[debug] [2022-11-18T01:37:45.181Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-18T01:37:45.343Z] Serving at port 9005
+
+[debug] [2022-11-18T01:37:45.392Z] Got response from /__/functions.yaml {"endpoints":{"helloWorld":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"helloWorld"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-18T01:37:45.397Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: helloWorld. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: helloWorld."}}
+[debug] [2022-11-18T01:37:45.865Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-11-18T01:37:45.866Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-11-18T01:37:45.866Z] Accepted request GET /south-eats-ecfa6/us-central1/helloWorld --> us-central1-helloWorld
+[debug] [2022-11-18T01:37:45.870Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-11-18T01:37:45.870Z] [functions] Got req.url=/south-eats-ecfa6/us-central1/helloWorld, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/south-eats-ecfa6/us-central1/helloWorld, mapping to path=/"}}
+[debug] [2022-11-18T01:37:45.870Z] [worker-pool] Cleaned up workers for us-central1-helloWorld: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-helloWorld: 1 --> 0"}}
+[debug] [2022-11-18T01:37:45.881Z] [worker-pool] addWorker(us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-helloWorld)"}}
+[debug] [2022-11-18T01:37:45.882Z] [worker-pool] Adding worker with key us-central1-helloWorld, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-helloWorld, total=1"}}
+[debug] [2022-11-18T01:37:46.668Z] [runtime-status] [4258] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4258] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-11-18T01:37:46.669Z] [runtime-status] [4258] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4258] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-11-18T01:37:46.669Z] [runtime-status] [4258] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4258] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-11-18T01:37:46.670Z] [runtime-status] [4258] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4258] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-11-18T01:37:46.708Z] [runtime-status] [4258] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4258] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-11-18T01:37:46.708Z] [runtime-status] [4258] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4258] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-11-18T01:37:46.709Z] [runtime-status] [4258] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4258] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-11-18T01:37:46.710Z] [runtime-status] [4258] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4258] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-11-18T01:37:46.711Z] [runtime-status] [4258] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4258] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-11-18T01:37:46.711Z] [runtime-status] [4258] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4258] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-11-18T01:37:46.713Z] [runtime-status] [4258] initializeApp(DEFAULT) {"storageBucket":"south-eats-ecfa6.appspot.com","projectId":"south-eats-ecfa6"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4258] initializeApp(DEFAULT) {\"storageBucket\":\"south-eats-ecfa6.appspot.com\",\"projectId\":\"south-eats-ecfa6\"}"}}
+[debug] [2022-11-18T01:37:46.718Z] [runtime-status] [4258] Functions runtime initialized. {"cwd":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions","node_version":"16.18.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4258] Functions runtime initialized. {\"cwd\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions\",\"node_version\":\"16.18.0\"}"}}
+[debug] [2022-11-18T01:37:46.718Z] [runtime-status] [4258] Listening to port: /var/folders/cw/54nh0hzj2dl90t2p6kl_8bzc0000gn/T/fire_emu_38d3d7e5c868f574.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4258] Listening to port: /var/folders/cw/54nh0hzj2dl90t2p6kl_8bzc0000gn/T/fire_emu_38d3d7e5c868f574.sock"}}
+[debug] [2022-11-18T01:37:46.799Z] [worker-pool] submitRequest(triggerId=us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-helloWorld)"}}
+[debug] [2022-11-18T01:37:46.799Z] [worker-us-central1-helloWorld-2b4a18b6-24d7-4e5b-850e-aa758fc0be3b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-2b4a18b6-24d7-4e5b-850e-aa758fc0be3b]: BUSY"}}
+[info] i  functions: Beginning execution of "helloWorld" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Beginning execution of \"helloWorld\""}}
+[warn] ⚠  Google API requested!
+   - URL: "https://oauth2.googleapis.com/token"
+   - Be careful, this may be a production service. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Google API requested!\n   - URL: \"https://oauth2.googleapis.com/token\"\n   - Be careful, this may be a production service."}}
+[debug] [2022-11-18T01:37:48.081Z] [worker-us-central1-helloWorld-2b4a18b6-24d7-4e5b-850e-aa758fc0be3b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-2b4a18b6-24d7-4e5b-850e-aa758fc0be3b]: IDLE"}}
+[debug] [2022-11-18T01:37:48.081Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] i  functions: Finished "helloWorld" in 1276.890241ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finished \"helloWorld\" in 1276.890241ms"}}
+[debug] [2022-11-18T01:38:51.613Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:38:51.713Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:38:51.831Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:38:51.941Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:38:52.015Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:38:53.017Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-18T01:38:54.185Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-11-18T01:38:54.186Z] Building nodejs source
+[debug] [2022-11-18T01:38:54.186Z] Analyzing nodejs backend spec
+[debug] [2022-11-18T01:38:54.187Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-18T01:38:54.333Z] Serving at port 9005
+
+[debug] [2022-11-18T01:38:54.382Z] Got response from /__/functions.yaml {"endpoints":{"helloWorld":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"helloWorld"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-18T01:38:54.389Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: helloWorld. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: helloWorld."}}
+[debug] [2022-11-18T01:38:54.398Z] [worker-pool] Shutting down IDLE worker (us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-helloWorld)"}}
+[debug] [2022-11-18T01:38:54.398Z] [worker-us-central1-helloWorld-2b4a18b6-24d7-4e5b-850e-aa758fc0be3b]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-2b4a18b6-24d7-4e5b-850e-aa758fc0be3b]: FINISHING"}}
+[debug] [2022-11-18T01:38:54.407Z] [worker-us-central1-helloWorld-2b4a18b6-24d7-4e5b-850e-aa758fc0be3b]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-2b4a18b6-24d7-4e5b-850e-aa758fc0be3b]: exited"}}
+[debug] [2022-11-18T01:38:54.407Z] [worker-us-central1-helloWorld-2b4a18b6-24d7-4e5b-850e-aa758fc0be3b]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-2b4a18b6-24d7-4e5b-850e-aa758fc0be3b]: FINISHED"}}
+[debug] [2022-11-18T01:39:30.712Z] File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/index.js changed, reloading triggers"}}
+[debug] [2022-11-18T01:39:31.715Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-18T01:39:32.956Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-11-18T01:39:32.956Z] Building nodejs source
+[debug] [2022-11-18T01:39:32.956Z] Analyzing nodejs backend spec
+[debug] [2022-11-18T01:39:32.957Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-18T01:39:32.967Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-11-18T01:39:32.967Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-11-18T01:39:32.967Z] Accepted request GET /south-eats-ecfa6/us-central1/helloWorld --> us-central1-helloWorld
+[debug] [2022-11-18T01:39:32.970Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-11-18T01:39:32.971Z] [functions] Got req.url=/south-eats-ecfa6/us-central1/helloWorld, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/south-eats-ecfa6/us-central1/helloWorld, mapping to path=/"}}
+[debug] [2022-11-18T01:39:32.971Z] [worker-pool] Cleaned up workers for us-central1-helloWorld: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-helloWorld: 1 --> 0"}}
+[debug] [2022-11-18T01:39:32.977Z] [worker-pool] addWorker(us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-helloWorld)"}}
+[debug] [2022-11-18T01:39:32.978Z] [worker-pool] Adding worker with key us-central1-helloWorld, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-helloWorld, total=1"}}
+[debug] [2022-11-18T01:39:33.113Z] Serving at port 9005
+
+[debug] [2022-11-18T01:39:33.169Z] Got response from /__/functions.yaml {"endpoints":{"helloWorld":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"helloWorld"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-18T01:39:33.176Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: helloWorld. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: helloWorld."}}
+[debug] [2022-11-18T01:39:33.185Z] [worker-pool] Shutting down IDLE worker (us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-helloWorld)"}}
+[debug] [2022-11-18T01:39:33.185Z] [worker-us-central1-helloWorld-9068968d-3b56-4dae-892d-160ff8eaa20d]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-9068968d-3b56-4dae-892d-160ff8eaa20d]: FINISHING"}}
+[debug] [2022-11-18T01:39:33.189Z] [worker-us-central1-helloWorld-9068968d-3b56-4dae-892d-160ff8eaa20d]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-9068968d-3b56-4dae-892d-160ff8eaa20d]: exited"}}
+[debug] [2022-11-18T01:39:33.190Z] [worker-us-central1-helloWorld-9068968d-3b56-4dae-892d-160ff8eaa20d]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-9068968d-3b56-4dae-892d-160ff8eaa20d]: FINISHED"}}
+[debug] FirebaseError: Failed to load function.
+    at Timeout._onTimeout (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsRuntimeWorker.js:152:24)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) {"metadata":{"emulator":{"name":"functions"},"message":{"name":"FirebaseError","children":[],"exit":1,"message":"Failed to load function.","status":500}}}
+[debug] [2022-11-18T01:40:03.040Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-11-18T01:40:21.640Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-11-18T01:40:21.640Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-11-18T01:40:21.640Z] Accepted request GET /south-eats-ecfa6/us-central1/helloWorld --> us-central1-helloWorld
+[debug] [2022-11-18T01:40:21.642Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-11-18T01:40:21.643Z] [functions] Got req.url=/south-eats-ecfa6/us-central1/helloWorld, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/south-eats-ecfa6/us-central1/helloWorld, mapping to path=/"}}
+[debug] [2022-11-18T01:40:21.643Z] [worker-pool] Cleaned up workers for us-central1-helloWorld: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-helloWorld: 1 --> 0"}}
+[debug] [2022-11-18T01:40:21.650Z] [worker-pool] addWorker(us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-helloWorld)"}}
+[debug] [2022-11-18T01:40:21.650Z] [worker-pool] Adding worker with key us-central1-helloWorld, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-helloWorld, total=1"}}
+[debug] [2022-11-18T01:40:22.417Z] [runtime-status] [4366] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4366] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-11-18T01:40:22.418Z] [runtime-status] [4366] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4366] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-11-18T01:40:22.419Z] [runtime-status] [4366] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4366] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-11-18T01:40:22.420Z] [runtime-status] [4366] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4366] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-11-18T01:40:22.455Z] [runtime-status] [4366] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4366] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-11-18T01:40:22.455Z] [runtime-status] [4366] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4366] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-11-18T01:40:22.455Z] [runtime-status] [4366] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4366] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-11-18T01:40:22.456Z] [runtime-status] [4366] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4366] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-11-18T01:40:22.457Z] [runtime-status] [4366] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4366] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-11-18T01:40:22.457Z] [runtime-status] [4366] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4366] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-11-18T01:40:22.459Z] [runtime-status] [4366] initializeApp(DEFAULT) {"storageBucket":"south-eats-ecfa6.appspot.com","projectId":"south-eats-ecfa6"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4366] initializeApp(DEFAULT) {\"storageBucket\":\"south-eats-ecfa6.appspot.com\",\"projectId\":\"south-eats-ecfa6\"}"}}
+[debug] [2022-11-18T01:40:22.465Z] [runtime-status] [4366] Functions runtime initialized. {"cwd":"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions","node_version":"16.18.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4366] Functions runtime initialized. {\"cwd\":\"/Volumes/macBackup/Projects/ban_natan/south-eats-delivery/functions\",\"node_version\":\"16.18.0\"}"}}
+[debug] [2022-11-18T01:40:22.465Z] [runtime-status] [4366] Listening to port: /var/folders/cw/54nh0hzj2dl90t2p6kl_8bzc0000gn/T/fire_emu_bef93edb95f9a999.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [4366] Listening to port: /var/folders/cw/54nh0hzj2dl90t2p6kl_8bzc0000gn/T/fire_emu_bef93edb95f9a999.sock"}}
+[debug] [2022-11-18T01:40:22.570Z] [worker-pool] submitRequest(triggerId=us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-helloWorld)"}}
+[debug] [2022-11-18T01:40:22.570Z] [worker-us-central1-helloWorld-cf1166e1-41db-4df2-86f5-1c967c1de7d4]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-cf1166e1-41db-4df2-86f5-1c967c1de7d4]: BUSY"}}
+[info] i  functions: Beginning execution of "helloWorld" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Beginning execution of \"helloWorld\""}}
+[warn] ⚠  Google API requested!
+   - URL: "https://oauth2.googleapis.com/token"
+   - Be careful, this may be a production service. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Google API requested!\n   - URL: \"https://oauth2.googleapis.com/token\"\n   - Be careful, this may be a production service."}}
+[debug] [2022-11-18T01:40:25.461Z] [worker-us-central1-helloWorld-cf1166e1-41db-4df2-86f5-1c967c1de7d4]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-cf1166e1-41db-4df2-86f5-1c967c1de7d4]: IDLE"}}
+[debug] [2022-11-18T01:40:25.462Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] i  functions: Finished "helloWorld" in 2888.075296ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finished \"helloWorld\" in 2888.075296ms"}}
+[debug] [2022-11-18T02:02:12.181Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-11-18T02:02:12.181Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-11-18T02:02:12.181Z] Accepted request GET /south-eats-ecfa6/us-central1/helloWorld --> us-central1-helloWorld
+[debug] [2022-11-18T02:02:12.184Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-11-18T02:02:12.184Z] [functions] Got req.url=/south-eats-ecfa6/us-central1/helloWorld, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/south-eats-ecfa6/us-central1/helloWorld, mapping to path=/"}}
+[debug] [2022-11-18T02:02:12.184Z] [worker-pool] submitRequest(triggerId=us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-helloWorld)"}}
+[debug] [2022-11-18T02:02:12.184Z] [worker-us-central1-helloWorld-cf1166e1-41db-4df2-86f5-1c967c1de7d4]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-cf1166e1-41db-4df2-86f5-1c967c1de7d4]: BUSY"}}
+[info] i  functions: Beginning execution of "helloWorld" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Beginning execution of \"helloWorld\""}}
+[debug] [2022-11-18T02:02:14.102Z] [worker-us-central1-helloWorld-cf1166e1-41db-4df2-86f5-1c967c1de7d4]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-cf1166e1-41db-4df2-86f5-1c967c1de7d4]: IDLE"}}
+[debug] [2022-11-18T02:02:14.102Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] i  functions: Finished "helloWorld" in 1915.101232ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finished \"helloWorld\" in 1915.101232ms"}}
