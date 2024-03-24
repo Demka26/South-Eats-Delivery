@@ -1,6 +1,8 @@
 # Customer App
 
+Main Screen - List of availabe restaurants:
 ![image](https://github.com/Demka26/South-Eats-Delivery/assets/93192407/61b61cc9-f0e9-4df2-b44f-ad8a75be30fb)
+
 ![image](https://github.com/Demka26/South-Eats-Delivery/assets/93192407/6941de56-cdc1-496d-bcc5-e9edab26652d)
 ![image](https://github.com/Demka26/South-Eats-Delivery/assets/93192407/62ecd602-1908-4469-b851-800b3c0e8e07)
 ![image](https://github.com/Demka26/South-Eats-Delivery/assets/93192407/76a1ca37-d343-461a-b8b7-034a54100487)
