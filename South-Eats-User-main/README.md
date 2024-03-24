@@ -7,7 +7,10 @@
 
 ![image](https://github.com/Demka26/South-Eats-Delivery/assets/93192407/6941de56-cdc1-496d-bcc5-e9edab26652d)
 
+## Loading Screen:
 ![image](https://github.com/Demka26/South-Eats-Delivery/assets/93192407/62ecd602-1908-4469-b851-800b3c0e8e07)
+
+### Cart:
 ![image](https://github.com/Demka26/South-Eats-Delivery/assets/93192407/76a1ca37-d343-461a-b8b7-034a54100487)
 ![image](https://github.com/Demka26/South-Eats-Delivery/assets/93192407/8554fcfc-fef2-4b28-b023-0e1a371e8c50)
 ![image](https://github.com/Demka26/South-Eats-Delivery/assets/93192407/969a92de-341f-4efb-8692-03822d647e32)
